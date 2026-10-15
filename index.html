@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игра на JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="game">
+        <h2>УКАЖИТЕ ВРЕМЯ</h2>
+
+        <input
+            type="number"
+            id="timeInput"
+            placeholder="Укажите время..."
+            min="1"
+            max="300"
+        >
+
+        <button id="startBtn">START</button>
+
+        <h3>Осталось: <span id="timeLeft">0</span></h3>
+
+        <div id="gameField">
+            <div id="score">ВЫ НАБРАЛИ 0</div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
